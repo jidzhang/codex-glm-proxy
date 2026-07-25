@@ -1,0 +1,14 @@
+# Codex GLM Proxy Configuration
+# Copy to ~/.codex/config.toml
+
+model_provider = "glm"
+model = "glm-5.2"
+
+model_catalog_json = "./models.json"
+
+[model_providers.glm]
+name = "GLM via Proxy"
+base_url = "http://localhost:18765"
+wire_api = "responses"
+
+# Available models: glm-5.2, glm-5.1, glm-5-turbo, glm-5, glm-4.7

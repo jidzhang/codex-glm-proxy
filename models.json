@@ -1,0 +1,253 @@
+{
+  "models": [
+    {
+      "slug": "glm-5.2",
+      "display_name": "GLM-5.2",
+      "description": "Flagship GLM model with 1M-token context, best for complex coding and reasoning tasks.",
+      "priority": 0,
+      "context_window": 1000000,
+      "default_reasoning_level": "high",
+      "supported_reasoning_levels": [
+        {
+          "effort": "low",
+          "description": "Fast responses"
+        },
+        {
+          "effort": "medium",
+          "description": "Balanced reasoning"
+        },
+        {
+          "effort": "high",
+          "description": "Deep reasoning"
+        },
+        {
+          "effort": "max",
+          "description": "Maximum reasoning depth"
+        }
+      ],
+      "reasoning_summary_format": "none",
+      "default_reasoning_summary": "auto",
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "apply_patch_tool_type": "freeform",
+      "support_verbosity": false,
+      "default_verbosity": "low",
+      "supports_parallel_tool_calls": true,
+      "supported_in_api": true,
+      "input_modalities": [
+        "text"
+      ],
+      "supports_image_detail_original": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "availability_nux": null,
+      "upgrade": null,
+      "base_instructions": "You are a helpful coding assistant powered by GLM-5.2, Zhipu AI's flagship model with a 1M-token context window. You excel at complex coding, reasoning, and large-scale multi-file tasks.",
+      "model_messages": null,
+      "experimental_supported_tools": [],
+      "available_in_plans": [
+        "free"
+      ],
+      "supports_reasoning_summaries": false,
+      "minimal_client_version": "0.0.1"
+    },
+    {
+      "slug": "glm-5.1",
+      "display_name": "GLM-5.1",
+      "description": "Best GLM model for complex coding and reasoning tasks.",
+      "priority": 1,
+      "context_window": 200000,
+      "default_reasoning_level": "high",
+      "supported_reasoning_levels": [
+        {
+          "effort": "low",
+          "description": "Fast responses"
+        },
+        {
+          "effort": "medium",
+          "description": "Balanced reasoning"
+        },
+        {
+          "effort": "high",
+          "description": "Deep reasoning"
+        }
+      ],
+      "reasoning_summary_format": "none",
+      "default_reasoning_summary": "auto",
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "apply_patch_tool_type": "freeform",
+      "support_verbosity": false,
+      "default_verbosity": "low",
+      "supports_parallel_tool_calls": true,
+      "supported_in_api": true,
+      "input_modalities": [
+        "text"
+      ],
+      "supports_image_detail_original": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "availability_nux": null,
+      "upgrade": null,
+      "base_instructions": "You are a helpful coding assistant powered by GLM-5.1.",
+      "model_messages": null,
+      "experimental_supported_tools": [],
+      "available_in_plans": [
+        "free"
+      ],
+      "supports_reasoning_summaries": false,
+      "minimal_client_version": "0.0.1"
+    },
+    {
+      "slug": "glm-5-turbo",
+      "display_name": "GLM-5-Turbo",
+      "description": "Fast GLM model for everyday coding tasks.",
+      "priority": 2,
+      "context_window": 200000,
+      "default_reasoning_level": "high",
+      "supported_reasoning_levels": [
+        {
+          "effort": "low",
+          "description": "Fast responses"
+        },
+        {
+          "effort": "medium",
+          "description": "Balanced reasoning"
+        },
+        {
+          "effort": "high",
+          "description": "Deep reasoning"
+        }
+      ],
+      "reasoning_summary_format": "none",
+      "default_reasoning_summary": "auto",
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "apply_patch_tool_type": "freeform",
+      "support_verbosity": false,
+      "default_verbosity": "low",
+      "supports_parallel_tool_calls": true,
+      "supported_in_api": true,
+      "input_modalities": [
+        "text"
+      ],
+      "supports_image_detail_original": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "availability_nux": null,
+      "upgrade": null,
+      "base_instructions": "You are a helpful coding assistant powered by GLM-5-Turbo.",
+      "model_messages": null,
+      "experimental_supported_tools": [],
+      "available_in_plans": [
+        "free"
+      ],
+      "supports_reasoning_summaries": false,
+      "minimal_client_version": "0.0.1"
+    },
+    {
+      "slug": "glm-5",
+      "display_name": "GLM-5",
+      "description": "GLM-5 model for coding tasks.",
+      "priority": 3,
+      "context_window": 200000,
+      "default_reasoning_level": "high",
+      "supported_reasoning_levels": [
+        {
+          "effort": "low",
+          "description": "Fast responses"
+        },
+        {
+          "effort": "medium",
+          "description": "Balanced reasoning"
+        },
+        {
+          "effort": "high",
+          "description": "Deep reasoning"
+        }
+      ],
+      "reasoning_summary_format": "none",
+      "default_reasoning_summary": "auto",
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "apply_patch_tool_type": "freeform",
+      "support_verbosity": false,
+      "default_verbosity": "low",
+      "supports_parallel_tool_calls": true,
+      "supported_in_api": true,
+      "input_modalities": [
+        "text"
+      ],
+      "supports_image_detail_original": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "availability_nux": null,
+      "upgrade": null,
+      "base_instructions": "You are a helpful coding assistant powered by GLM-5.",
+      "model_messages": null,
+      "experimental_supported_tools": [],
+      "available_in_plans": [
+        "free"
+      ],
+      "supports_reasoning_summaries": false,
+      "minimal_client_version": "0.0.1"
+    },
+    {
+      "slug": "glm-4.7",
+      "display_name": "GLM-4.7",
+      "description": "Cost-efficient GLM model for simpler tasks.",
+      "priority": 4,
+      "context_window": 200000,
+      "default_reasoning_level": "high",
+      "supported_reasoning_levels": [
+        {
+          "effort": "low",
+          "description": "Fast responses"
+        },
+        {
+          "effort": "medium",
+          "description": "Balanced reasoning"
+        },
+        {
+          "effort": "high",
+          "description": "Deep reasoning"
+        }
+      ],
+      "reasoning_summary_format": "none",
+      "default_reasoning_summary": "auto",
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "apply_patch_tool_type": "freeform",
+      "support_verbosity": false,
+      "default_verbosity": "low",
+      "supports_parallel_tool_calls": true,
+      "supported_in_api": true,
+      "input_modalities": [
+        "text"
+      ],
+      "supports_image_detail_original": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "availability_nux": null,
+      "upgrade": null,
+      "base_instructions": "You are a helpful coding assistant powered by GLM-4.7.",
+      "model_messages": null,
+      "experimental_supported_tools": [],
+      "available_in_plans": [
+        "free"
+      ],
+      "supports_reasoning_summaries": false,
+      "minimal_client_version": "0.0.1"
+    }
+  ]
+}
